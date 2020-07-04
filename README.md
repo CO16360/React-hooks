@@ -2,9 +2,10 @@ Contents:
 1. useState()
 2. one state    -----> merging not preferred
 3. useEffect()
-4. useContext()
-5. useReducer()
-6. createRef() ----->ref in class based components
-7. useRef()
-8. Optimizing and avoiding unnecessary re-rendering
-9. useMemo()
+4. createContext()
+5. useContext()
+6. useReducer()
+7. createRef() ----->ref in class based components
+8. useRef()
+9. Optimizing and avoiding unnecessary re-rendering
+10. useMemo()

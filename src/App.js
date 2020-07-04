@@ -22,7 +22,7 @@ setAuthStatus(true)
       <AuthContext.Provider value={{status:authStatus, login:login}}>
       <Header onLoadTodos={switchPage.bind(this,'todos')} onLoadAuth={switchPage.bind(this,'auth')} />
       <hr />
-      {page==='auth' ? <Auth /> :   <Todo />}
+      {page==='auth' ? <Auth /> : <Todo />}
      </AuthContext.Provider>
     </div>
   ); 
